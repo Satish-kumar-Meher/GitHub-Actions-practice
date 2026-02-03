@@ -23,9 +23,3 @@ jobs:
           git pull
           docker compose update -d --build
           
-
-    - name: Install dependencies
-      run: npm install
-
-    - name: Run application
-      run: npm start
